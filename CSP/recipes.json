@@ -1,0 +1,202 @@
+{
+  "egg burji": {
+    "items": ["eggs", "capsicum", "onion"],
+    "rich nutrient": "protein",
+    "meal type": "breakfast"
+  },
+  "avocado toast": {
+    "items": ["bread", "avocado", "lemon"],
+    "rich nutrient": "fiber",
+    "meal type": "breakfast"
+  },
+  "vegetable upma": {
+    "items": ["semolina", "carrot", "peas"],
+    "rich nutrient": "carbs",
+    "meal type": "breakfast"
+  },
+  "banana smoothie": {
+    "items": ["banana", "milk", "honey"],
+    "rich nutrient": "carbs",
+    "meal type": "breakfast"
+  },
+  "oatmeal with berries": {
+    "items": ["oats", "milk", "berries"],
+    "rich nutrient": "fiber",
+    "meal type": "breakfast"
+  },
+  "chana masala": {
+    "items": ["chickpeas", "onion", "tomato"],
+    "rich nutrient": "fiber",
+    "meal type": "lunch"
+  },
+  "grilled cheese sandwich": {
+    "items": ["bread", "cheese", "butter"],
+    "rich nutrient": "fat",
+    "meal type": "lunch"
+  },
+  "paneer bhurji": {
+    "items": ["paneer", "capsicum", "onion"],
+    "rich nutrient": "protein",
+    "meal type": "lunch"
+  },
+  "masoor dal": {
+    "items": ["masoor dal", "tomato", "turmeric"],
+    "rich nutrient": "protein",
+    "meal type": "lunch"
+  },
+  "tuna salad": {
+    "items": ["tuna", "lettuce", "olive oil"],
+    "rich nutrient": "protein",
+    "meal type": "lunch"
+  },
+  "vegetable pulao": {
+    "items": ["rice", "carrot", "peas"],
+    "rich nutrient": "carbs",
+    "meal type": "lunch"
+  },
+  "spinach dal": {
+    "items": ["spinach", "toor dal", "garlic"],
+    "rich nutrient": "fiber",
+    "meal type": "lunch"
+  },
+  "mac and cheese": {
+    "items": ["macaroni", "cheese", "milk"],
+    "rich nutrient": "fat",
+    "meal type": "lunch"
+  },
+  "grilled chicken bowl": {
+    "items": ["chicken", "rice", "broccoli"],
+    "rich nutrient": "protein",
+    "meal type": "lunch"
+  },
+  "dal fry": {
+    "items": ["toor dal", "tomato", "garlic"],
+    "rich nutrient": "protein",
+    "meal type": "lunch"
+  },
+  "aloo paratha": {
+    "items": ["wheat flour", "potato", "cumin"],
+    "rich nutrient": "carbs",
+    "meal type": "dinner"
+  },
+  "quinoa salad": {
+    "items": ["quinoa", "cucumber", "feta cheese"],
+    "rich nutrient": "fiber",
+    "meal type": "dinner"
+  },
+  "chickpea stir-fry": {
+    "items": ["chickpeas", "onion", "pepper"],
+    "rich nutrient": "fiber",
+    "meal type": "dinner"
+  },
+  "moong dal khichdi": {
+    "items": ["moong dal", "rice", "cumin"],
+    "rich nutrient": "fiber",
+    "meal type": "dinner"
+  },
+  "stuffed bell peppers": {
+    "items": ["bell pepper", "quinoa", "cheese"],
+    "rich nutrient": "fiber",
+    "meal type": "dinner"
+  },
+  "pasta primavera": {
+    "items": ["pasta", "zucchini", "parmesan"],
+    "rich nutrient": "carbs",
+    "meal type": "dinner"
+  },
+  "avial": {
+    "items": ["mixed vegetables", "coconut", "yogurt"],
+    "rich nutrient": "fiber",
+    "meal type": "dinner"
+  },
+  "sambar": {
+    "items": ["toor dal", "drumstick", "tamarind"],
+    "rich nutrient": "protein",
+    "meal type": "dinner"
+  },
+  "curd rice": {
+    "items": ["rice", "curd", "mustard seeds"],
+    "rich nutrient": "carbs",
+    "meal type": "dinner"
+  },
+  "sprouts salad": {
+    "items": ["moong sprouts", "onion", "tomato"],
+    "rich nutrient": "protein",
+    "meal type": "dinner"
+  },
+  "veggie quesadilla": {
+    "items": ["tortilla", "cheese", "bell pepper"],
+    "rich nutrient": "fat",
+    "meal type": "dinner"
+  },
+  "beetroot stir fry": {
+    "items": ["beetroot", "mustard seeds", "coconut"],
+    "rich nutrient": "fiber",
+    "meal type": "dinner"
+  },
+  "methi thepla": {
+    "items": ["fenugreek leaves", "wheat flour", "yogurt"],
+    "rich nutrient": "fiber",
+    "meal type": "dinner"
+  },
+  "tofu stir fry": {
+    "items": ["tofu", "broccoli", "soy sauce"],
+    "rich nutrient": "protein",
+    "meal type": "dinner"
+  },
+  "baked beans on toast": {
+    "items": ["bread", "baked beans", "butter"],
+    "rich nutrient": "fiber",
+    "meal type": "breakfast"
+  },
+  "protein pancakes": {
+    "items": ["oats", "banana", "eggs"],
+    "rich nutrient": "protein",
+    "meal type": "breakfast"
+  },
+  "idli sambar": {
+    "items": ["idli", "toor dal", "vegetables"],
+    "rich nutrient": "protein",
+    "meal type": "breakfast"
+  },
+  "chocolate oats": {
+    "items": ["oats", "cocoa", "milk"],
+    "rich nutrient": "carbs",
+    "meal type": "breakfast"
+  },
+  "fried rice": {
+    "items": ["rice", "carrot", "soy sauce"],
+    "rich nutrient": "carbs",
+    "meal type": "lunch"
+  },
+  "green salad": {
+    "items": ["lettuce", "cucumber", "olive oil"],
+    "rich nutrient": "fiber",
+    "meal type": "lunch"
+  },
+  "carrot halwa": {
+    "items": ["carrot", "milk", "ghee"],
+    "rich nutrient": "fat",
+    "meal type": "lunch"
+  },
+  "fruit bowl": {
+    "items": ["apple", "banana", "berries"],
+    "rich nutrient": "fiber",
+    "meal type": "breakfast"
+  },
+  "scrambled eggs": {
+    "items": ["eggs", "milk", "butter"],
+    "rich nutrient": "protein",
+    "meal type": "breakfast"
+  },
+  "tahini toast": {
+    "items": ["bread", "tahini", "banana"],
+    "rich nutrient": "fat",
+    "meal type": "breakfast"
+  },
+  "lentil soup": {
+    "items": ["lentils", "carrot", "onion"],
+    "rich nutrient": "protein",
+    "meal type": "dinner"
+  }
+}
