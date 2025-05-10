@@ -92,12 +92,18 @@ def depthFirstSearch(problem: SearchProblem):
     visited = set()
     while not stack.isEmpty():
         prev, node = stack.pop()
+        # Check if the node is already visited, if yes ignore the node.
+        if node in visited:
+            continue
         visited.add(node)
+        # Check if the node is the goal state.
+        if problem.isGoalState(node):
+            return prev
+        # Expand the node, and add to the stack
         for state, action, cost in problem.getSuccessors(node):
             if state not in visited:
                 stack.push((prev + [action],state))
-            if problem.isGoalState(state):
-                return prev + [action]
+
 
 def breadthFirstSearch(problem: SearchProblem):
     """Search the shallowest nodes in the search tree first."""
@@ -107,17 +113,38 @@ def breadthFirstSearch(problem: SearchProblem):
     visited = set()
     while not queue.isEmpty():
         prev, node = queue.pop()
+        # Check if the node is already visited, if yes ignore the node.
+        if node in visited:
+            continue
         visited.add(node)
+        # Check if the node is the goal state.
+        if problem.isGoalState(node):
+            return prev
+        # Expand the node, and add to the queue
         for state, action, cost in problem.getSuccessors(node):
             if state not in visited:
                 queue.push((prev + [action], state))
-            if problem.isGoalState(state):
-                return prev + [action]
+
 
 def uniformCostSearch(problem: SearchProblem):
     """Search the node of least total cost first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    queue = util.PriorityQueue()
+    queue.push(([], problem.getStartState()),0)
+    visited = set()
+    while not queue.isEmpty():
+        prev, node = queue.pop()
+        # Check if the node is already visited, if yes ignore the node.
+        if node in visited:
+            continue
+        visited.add(node)
+        # Check if the node is the goal state.
+        if problem.isGoalState(node):
+            return prev
+        # Expand the node, and add to the priority queue
+        for state, action, cost in problem.getSuccessors(node):
+            if state not in visited:
+                queue.push((prev + [action], state), problem.getCostOfActions(prev + [action]))
 
 def nullHeuristic(state, problem=None):
     """
