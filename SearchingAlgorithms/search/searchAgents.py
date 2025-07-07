@@ -297,6 +297,7 @@ class CornersProblem(search.SearchProblem):
         space)
         """
         "*** YOUR CODE HERE ***"
+        a, b, c, d = self.corners
         return self.startingPosition
 
     def isGoalState(self, state: Any):

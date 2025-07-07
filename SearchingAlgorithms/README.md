@@ -19,3 +19,5 @@ Used for wighted graph, particularly useful when all the weights are different. 
 Similar to BFS, but select the node with the least cost to expand next.
 
 DATA STRUCTURE: FIFO - Priority Queue.
+
+## 4. A* Search Algorithm
